@@ -1,0 +1,275 @@
+﻿<!-- Flies name: index.html
+    img/ColourWheel.png
+    img/logo.jpg
+
+    Author's name: RenFa Feng
+    Web Site Name: Personality Suervey
+    
+     -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Personality Survey</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+</head>
+
+<body>
+    <!-- Home page section -->
+<div data-role="page" id="home">
+  <div data-role="header" >
+      <img src="img/logo.jpg" />
+      <h1>My Personality Survey Site</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" class="ui-btn-active ui-state-persist"  data-icon="home">Home</a></li>
+      <li><a href="#survey" data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <section role="main" class="ui-content">
+      <img src="img/ColourWheel.png" />
+    <p> This is my homepage content</p>
+  </section>
+  <div data-role="footer"  data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- Home page sectin end -->
+
+    
+    <!-- Survey pagesection (question1 page)  -->
+<div data-role="page" id="survey">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" class="ui-btn-active ui-state-persist"  data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <div class="small-6 columns">
+          <label>1.	You prefer to keep your appearance:</label>
+          <input type="radio" name="pokemon" value="a" id="pokemonA1"><label for="pokemonA1">A.Functional</label>
+          <input type="radio" name="pokemon" value="b" id="pokemonB1"><label for="pokemonB1">B.Fashionable</label>
+          <input type="radio" name="pokemon" value="c" id="pokemonC1"><label for="pokemonC1">C.Casual</label>
+          <input type="radio" name="pokemon" value="d" id="pokemonD1"><label for="pokemonD1">D.Conservative</label>
+      </div>
+      <a href="#question2" class="ui-btn ui-corner-all button">Submit</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- question1 end -->
+
+    <!-- question2 -->
+    <div data-role="page" id="question2">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" class="ui-btn-active ui-state-persist"  data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <div class="small-6 columns">
+          <label>2.	What types of goals do you set for yourself?</label>
+          <input type="radio" name="pokemon" value="a" id="pokemonA2"><label for="pokemonA2">A.Challenging Goals</label>
+          <input type="radio" name="pokemon" value="b" id="pokemonB2"><label for="pokemonB2">B.I don’t Set Goals</label>
+          <input type="radio" name="pokemon" value="c" id="pokemonC2"><label for="pokemonC2">C.Short-Term Goals</label>
+          <input type="radio" name="pokemon" value="d" id="pokemonD2"><label for="pokemonD2">D.Long-Term Goals</label>
+      </div>
+      <a href="#question3" class="ui-btn ui-corner-all button">Submit</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- question2 end -->
+
+    <!-- question3 end -->
+    <div data-role="page" id="question3">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" class="ui-btn-active ui-state-persist"  data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <div class="small-6 columns">
+          <label>3.	Your optimal work environment is:</label>
+          <input type="radio" name="pokemon" value="a" id="pokemonA3"><label for="pokemonA3">A.Busy & Efficient</label>
+          <input type="radio" name="pokemon" value="b" id="pokemonB3"><label for="pokemonB3">B.Stimulating & Social</label>
+          <input type="radio" name="pokemon" value="c" id="pokemonC3"><label for="pokemonC3">C.Relaxed & Friendly</label>
+          <input type="radio" name="pokemon" value="d" id="pokemonD3"><label for="pokemonD3">D.Structured & Organized</label>
+      </div>
+      <a href="#question4" class="ui-btn ui-corner-all button">Submit</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- question3 end -->
+
+    <!-- question4 end -->
+    <div data-role="page" id="question4">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" class="ui-btn-active ui-state-persist"  data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <div class="small-6 columns">
+          <label>4.	In Which type of environment do you prefer to work the MOST?</label>
+          <input type="radio" name="pokemon" value="a" id="pokemonA4"><label for="pokemonA4">A.Where I have the freedom to set my own priorities</label>
+          <input type="radio" name="pokemon" value="b" id="pokemonB4"><label for="pokemonB4">B.Where there are a lot of people to talk to</label>
+          <input type="radio" name="pokemon" value="c" id="pokemonC4"><label for="pokemonC4">C.Where there is a regular routine of events</label>
+          <input type="radio" name="pokemon" value="d" id="pokemonD4"><label for="pokemonD4">D.Where changes are made slowly and carefully</label>
+      </div>
+      <a href="#question5" class="ui-btn ui-corner-all button">Submit</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- question4 end -->
+
+    <!-- question5 end -->
+    <div data-role="page" id="question5">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Survey Questions</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" class="ui-btn-active ui-state-persist"  data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <div class="small-6 columns">
+          <label>5.	Your preferred learning style is:</label>
+          <input type="radio" name="pokemon" value="a" id="pokemonA5"><label for="pokemonA5">A.Learning by teaching others</label>
+          <input type="radio" name="pokemon" value="b" id="pokemonB5"><label for="pokemonB5">B.Learning through interactivity</label>
+          <input type="radio" name="pokemon" value="c" id="pokemonC5"><label for="pokemonC5">C.Learning by taking things slow and listening</label>
+          <input type="radio" name="pokemon" value="d" id="pokemonD5"><label for="pokemonD5">D.Learning by reading and independent research</label>
+      </div>
+      <a href="#results" class="ui-btn ui-corner-all button">Submit</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- question5 end -->
+
+    <!-- result section -->
+<div data-role="page" id="results">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Results Page</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" data-icon="info">Survey</a></li>
+      <li><a href="#contact" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+      <a href="#dialog1" class="ui-btn ui-shadow ui-btn-inline ui-btn-b">Here is reslut</a> 
+      
+      <a href="#home" class="ui-btn ui-corner-all button">Back to home page</a>
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- result section end -->
+
+    <!-- contact section -->
+<div data-role="page" id="contact">
+  <div data-role="header">
+    <img src="img/logo.jpg" />
+    <h1>Contact</h1>
+  </div>
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#home" data-icon="home">Home</a></li>
+      <li><a href="#survey" data-icon="info">Survey</a></li>
+      <li><a href="#contact"  class="ui-btn-active ui-state-persist" data-icon="mail">Contact</a></li>
+    </ul>
+  </div>
+  <div data-role="content">
+
+    <form action="" method="get" name="contactForm">
+      <div class="row">
+        <div class="small-8">
+          <div class="row">
+            <div class="small-3 columns">
+              <label for="name-label" class="right">Name</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="name-label" placeholder="Inline Text Input">
+            </div>
+              
+            <div class="small-3 columns">
+              <label for="number-label" class="right">Contact Number</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="number-label" placeholder="Inline Text Input">
+            </div>
+              
+            <div class="small-3 columns">
+              <label for="email-label" class="right">Email Address</label>
+            </div>
+            <div class="small-9 columns">
+              <input type="text" id="email-label" placeholder="Inline Text Input">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#home" class="ui-btn ui-corner-all button">Submit</a>
+    </form>
+
+  </div>
+  <div data-role="footer"data-position="fixed">
+    <h4>Copyright 2014</h4>
+  </div>
+</div>
+    <!-- contact section end -->
+
+<div data-role="page" id="dialog1" data-dialog="true">
+  <div data-role="header">
+    <h1>My Dialog</h1>
+  </div>
+  <div data-role="content">
+    <p> dialog content </p>
+  </div>
+</div>
+</body>
+</html>
